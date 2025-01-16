@@ -11,7 +11,7 @@ def get_distance(one, two):
 def get_closest(points):
 
     closest_points = []
-    closest = 10000000
+    closest = 1000000000000
     if len(points) < 3:
         for p in points:
             closest_points.insert(p)
